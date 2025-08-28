@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/sugarcut/',
+  base: './', // Changed from '/sugarcut/' to './'
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')
